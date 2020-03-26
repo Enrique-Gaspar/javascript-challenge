@@ -25,7 +25,7 @@ body {
   bottom: 0;
   left: 0;
   min-height: 100px;
-  background: #4e5d6c;
+  background: #2e3741;
 }
 
 /* The code styles the text at the bottom of the footer */
@@ -47,9 +47,9 @@ body {
 .nav-ufo {
   position: absolute;
   bottom: 5px;
-  left: 150px;
+  left: 220px;
   width: 35px;
-  color: white;
+  color: rgba(139, 14, 14, 0.603);
 }
 
 /* Adding styles to the aside and filter form */
@@ -58,7 +58,7 @@ body {
 }
 
 .filters .panel-body {
-  padding: 0;
+  padding: 50;
 }
 
 .filters {
@@ -67,7 +67,7 @@ body {
 
 select {
   display: block;
-  width: 100%;
+  width: 200%;
   padding: 8px;
   color: #8e979f;
   outline: none;
@@ -98,7 +98,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url("../images/orion_nebula.jpg");
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -110,12 +110,20 @@ select {
   animation: title 1.2s forwards linear;
 }
 
-.hero p {
+.hero p1 {
   font-size: 2rem;
   opacity: 0;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
 }
+
+.hero p2 {
+  font-size: 2rem;
+  opacity: 0;
+  animation: subtitle 3.5s forwards linear;
+  animation-delay: 3.5s;
+}
+
 
 /* input placeholder color changes */
 .form-control::-webkit-input-placeholder {
