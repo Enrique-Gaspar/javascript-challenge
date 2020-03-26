@@ -26,6 +26,9 @@ function funcionParaInsertarDatos(data) {
 // Execue the function I just ceated
 //funcionParaInsertarDatos(tableData);
 
+//var button = d3.select('#filter-refr');
+//button.on('click', href = 'index.html');
+
 // Select the button
 var button = d3.select('#filter-btn');
 
@@ -96,7 +99,7 @@ button.on('click', function () {
      var dataFiltered5 = tableData.filter(event => event.shape === qqValueOfShape);
      console.log(dataFiltered5);
 
-     tableQuique.html('');
+     //tableQuique.html('');
      funcionParaInsertarDatos(dataFiltered5);
  });
 
